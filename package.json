@@ -1,0 +1,21 @@
+{
+  "name": "test-nexe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.8",
+    "@babel/plugin-transform-runtime": "^7.13.8",
+    "@babel/preset-env": "^7.13.8",
+    "@babel/runtime": "^7.13.8",
+    "globby": "^11.0.2",
+    "moment": "^2.29.1",
+    "nexe": "3.3.7",
+    "node-pty": "^0.10.0",
+    "shelljs": "^0.8.4"
+  },
+  "scripts": {
+    "build": "node scripts/build.js"
+  }
+}
